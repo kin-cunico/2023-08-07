@@ -13,7 +13,7 @@ io.output("working_with_files.txt", "w")
 io.write("Hello, World!\n") -- write to the file
 
 -- combining io.write() with io.output() we can write to a file
-io.output("working_with_files.txt", io.write("\Hello new file!\n"))
+io.output("working_with_files.txt", io.write("Hello new file, again!\n"))
 
 io.close()
 
